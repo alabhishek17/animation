@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.animi{
+display: flex;
+justify-content: space-between;
+-webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0004);
+
+}
+img{
+ width: 350px;
+ border-radius: 10px;
+ transform-origin: center;
+ transform: perspective(800px) rotateY(20deg);
+}
+/* img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+} */
+/* .animi img:hover {
+    transform: perspective(800px) rotateY(0deg);
+    opacity: 1;
+} */
+/* .animi{
+    animation: rotate 1s infinite;
+}
+.animi{
+    animation: rotate 1s;
+}
+.animi{
+    animation: rotate 1s;
+}
+@keyframes rotate{
+    from{
+        rotate: rotate(0);
+    }
+    to{
+        rotate: rotate(45deg);
+    }
+}
+@keyframes rotate{
+    from{
+        rotate: rotate(0);
+    }
+    to{
+        rotate: rotate(45deg);
+    }
+}
+@keyframes rotate{
+    from{
+        rotate: rotate(0);
+    }
+    to{
+        rotate: rotate(45deg);
+    }
+} */
+.animi:hover img{
+    opacity: 0.3;
+}
+.animi img:hover {
+    transform: perspective(800px) rotateY(0deg);
+    opacity: 1;
+}
